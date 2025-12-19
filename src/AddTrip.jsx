@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Bounce, Slide, ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; 
-6
+
 export default function AddTrip({ onTripAdded }) {
   const [form, setForm] = useState({
     tripName: "", boarding: "", destination: "", startDate: "", endDate: "",
